@@ -15,7 +15,7 @@ int main()
 
     // well this is nice, oh the formatter made it two line
     /* it was originally
-    inty; double z;
+    int y; double z;
     i just wanted to test */
 
     return 0;
