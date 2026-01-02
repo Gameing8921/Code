@@ -33,21 +33,24 @@ player.play()
 player.play()
 
 
-def checkBestMove():
+def check_best_move(player):
     for line in winningLines:
-        missing = []
+        count = 0
+        missing = None
 
-        countMissing: int = 0
         for space in line:
             if space in player.takenSpaces:
-                countMissing += 1
+                count += 1
             else:
-                missing.append(space)
+                missing = space
 
-    if countMissing == 2 and len(missing) == 1:
-        print(f"{missing[0]}")
+        # If the player has 2 of the 3, and the missing one is free:
+        if count == 2 and missing not in player.takenSpaces:
+            return missing
+
+    return None
 
 
-print(checkBestMove())
+print(check_best_move(player))
 
-#UNFINISHED
+# UNFINISHED
