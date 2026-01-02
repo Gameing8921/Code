@@ -1,10 +1,4 @@
-import os
-import sys
-
-# Add the parent directory + libs to sys.path
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", "libs"))
-
-from percentagise import *
+from libs.percentagaise import percentagise
 
 
 usrput = input("put: ")
@@ -32,6 +26,6 @@ lis.append(letters)
 lis.append(nums)
 lis.append(chars)
 
-print(percentagise(lis, 0))
-print(percentagise(lis, 1))
-print(percentagise(lis, 2))
+print(int(percentagise(lis, 0)))
+print(int(percentagise(lis, 1)))
+print(int(percentagise(lis, 2)))
