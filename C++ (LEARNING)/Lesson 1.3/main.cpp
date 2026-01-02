@@ -8,10 +8,10 @@ int main()
     std::cout << "Hello"; // print the literal text `Hello`
     std::cout << "What if i\n";
 
-    int x = 15;
-    int a, b, c; // NOTE TO SELF: DONT DO THIS
-    int y;
-    double z;
+    // int x = 15;  // NOTE TO SELF: PLS USE BRACE INITIALIZATION IG {{{{{{{{{{}}}}}}}}}}
+    // int a, b, c; // NOTE TO SELF: DONT DO THIS
+    // int y;
+    // double z;
 
     // well this is nice, oh the formatter made it two line
     /* it was originally
