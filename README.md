@@ -36,4 +36,9 @@ Because **why not**?, Why not make this public, why not share my wacky code (tha
 
 
 
+# FINAL NOTE
+I am **VERY NEW** to github, i dont know what i need to add, what i should be doing, what anything should be anythinging. 
+> IF ANYONE IS SOMEHOW READING, TELL ME WTH IM DOING WRONG, BECAUSE I KNOW THAT IM DOING A LOT OF THINGS WRONG
+
+
 
