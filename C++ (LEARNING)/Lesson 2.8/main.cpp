@@ -4,6 +4,6 @@ int add(int x, int y);
 
 int main()
 {
-    std::cout << add(2, 5);
+    std::cout << add(9, 5);
     return 0;
 }
